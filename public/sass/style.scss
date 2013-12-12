@@ -22,7 +22,7 @@ body{
 }
 
 #welcome {
-  background-image: $sky-url;
+  background-image: $heart-url;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -159,26 +159,35 @@ nav {
 }
 
 .project{
-  border: 4px solid $orange;
+  background-color: darken($grey,10);
+  border: 3px solid darken($grey,20);
+  border-radius: 1%;
   float: left;
-  height: 40%;
-  width: 35%;
-  margin: 5%;
+  height: 30%;
+  width: 25%;
+  margin: 5% 0 0 5%;
+
+  &.hover{
+  background-color: $orange;
+  }
 }
 
 .app{
-  height: 50%;
-  width: 50%;
-  top: 25%;
+  height: 100%;
+  width: 100%;
 }
+
+.future-app{
+  margin-top: 20%;
+  font-size: $fontsize * 2.5;
+  text-align: center;
+}
+
+/*Connect */
 
 .bottom{
-  width: 60%
-}
+  width: 65%;
 
-.icon{
-  height: 40px;
-  width: 40px;
 }
 
 .connect-link {
@@ -194,5 +203,17 @@ nav {
   color: lighten($dark-font, 15)
   }
 }
+
+.title {
+  margin-left: 63%;
+  font-size: $fontsize * 2.5;
+}
+
+.icon{
+  height: 40px;
+  width: 40px;
+}
+
+
 
 

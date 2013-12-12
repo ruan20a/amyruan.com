@@ -140,7 +140,10 @@ nav {
 
 .app {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  opacity: 1; }
+  .app.hover {
+    opacity: 0.7; }
 
 .future-app {
   margin-top: 20%;

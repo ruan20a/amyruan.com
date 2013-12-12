@@ -168,19 +168,25 @@ nav {
   margin: 5% 0 0 5%;
 
   &.hover{
-  background-color: $orange;
+    background-color: $orange;
   }
 }
 
 .app{
   height: 100%;
   width: 100%;
+  opacity: 1;
+
+  &.hover{
+    opacity: 0.7;
+  }
 }
 
 .future-app{
   margin-top: 20%;
   font-size: $fontsize * 2.5;
   text-align: center;
+
 }
 
 /*Connect */
@@ -204,7 +210,6 @@ nav {
 }
 
 .title {
-
   font-size: $fontsize * 2.5;
   float: left;
 

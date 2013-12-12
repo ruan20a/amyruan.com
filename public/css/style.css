@@ -69,7 +69,7 @@ nav {
 
 /* Timeline */
 #path {
-  background-image: url("../images/topMountain.jpg");
+  background-image: url("../images/topMountain2.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -163,8 +163,8 @@ nav {
     color: #46685d; }
 
 .title {
-  margin-left: 63%;
-  font-size: 30px; }
+  font-size: 30px;
+  float: left; }
 
 .icon {
   height: 40px;

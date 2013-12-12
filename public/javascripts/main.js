@@ -3,7 +3,6 @@ $( document ).ready(function(){
   var words = ["Programming", "Ideas", "Design", "Curiosity", "Impact"];
   var $target;
   var wordIndex = 0;
-
 // words
   $(function(){
     $target = $('#content');
@@ -23,6 +22,22 @@ $( document ).ready(function(){
     }
   };
 
+  var $connect = $('#Connect');
+  var $project = $('#Projects');
+  var $timeline = $('#Timeline');
+
+  var $end = $('#end');
+  var $path = $('#path');
+
+  $connect.on("click", function(){
+    $(window).scrollTop($end.offset().top);
+  });
+  $project.on("click", function(){
+    $(window).scrollTop($end.offset().top);
+  });
+  $timeline.on("click", function(){
+    $(window).scrollTop($path.offset().top);
+  });
 //hover orange
 
 });

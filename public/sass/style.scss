@@ -187,7 +187,6 @@ nav {
 
 .bottom{
   width: 65%;
-
 }
 
 .connect-link {
@@ -205,8 +204,10 @@ nav {
 }
 
 .title {
-  margin-left: 63%;
+
   font-size: $fontsize * 2.5;
+  float: left;
+
 }
 
 .icon{

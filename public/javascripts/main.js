@@ -1,6 +1,6 @@
 $( document ).ready(function(){
 
-  var words = ["Programming", "Ideas", "Design", "Curiosity", "Impact"];
+  var words = ["Coding", "Ideas", "Design", "Curiosity", "Impact", "Fun Facts", "Art"];
   var $target;
   var wordIndex = 0;
 // words

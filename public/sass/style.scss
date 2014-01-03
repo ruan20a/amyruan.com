@@ -30,6 +30,7 @@ body{
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+  overflow: hidden;
 }
 
 /* TOP of FIRST PAGE */
@@ -55,7 +56,6 @@ nav {
   display: inline;
   float: right;
   list-style-type: none;
-
   &:hover{
   color: lighten($dark-font, 15)
   }
@@ -71,10 +71,11 @@ nav {
   height: 10%;
   width: 30%;
   text-align: center;
+  vertical-align:center
   position: absolute;
   font-size: $fontsize * 4;
   font-weight: bold;
-  left: 33%;
+  left: 27%;
   top: 60%;
   &:hover{
   color: $awesome-red;
@@ -143,7 +144,7 @@ nav {
 }
 
 .link{
-  color: $orange;
+  color: $awesome-red;
   margin-left: 35%;
 }
 

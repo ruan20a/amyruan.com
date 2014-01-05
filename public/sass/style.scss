@@ -71,7 +71,7 @@ nav {
   height: 10%;
   width: 30%;
   text-align: center;
-  vertical-align:center
+  vertical-align:center;
   position: absolute;
   font-size: $fontsize * 4;
   font-weight: bold;
@@ -109,6 +109,8 @@ nav {
 .box {
   display: table;
   margin: 10%;
+  width: 20%;
+  height: 20%;
 }
 
 .circle {

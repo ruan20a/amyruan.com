@@ -24,7 +24,8 @@ body {
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
-  -o-background-size: cover; }
+  -o-background-size: cover;
+  overflow: hidden; }
 
 /* TOP of FIRST PAGE */
 nav {
@@ -56,10 +57,11 @@ nav {
   height: 10%;
   width: 30%;
   text-align: center;
+  vertical-align: center;
   position: absolute;
   font-size: 48px;
   font-weight: bold;
-  left: 33%;
+  left: 27%;
   top: 60%; }
   .words:hover {
     color: #ff525e; }
@@ -85,7 +87,9 @@ nav {
 
 .box {
   display: table;
-  margin: 10%; }
+  margin: 10%;
+  width: 20%;
+  height: 20%; }
 
 .circle {
   float: left;
@@ -116,7 +120,7 @@ nav {
   color: black; }
 
 .link {
-  color: #ff8900;
+  color: #ff525e;
   margin-left: 35%; }
 
 /* Projects */

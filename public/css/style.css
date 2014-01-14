@@ -120,8 +120,12 @@ nav {
   color: black; }
 
 .link {
-  color: #ff525e;
-  width: 300px; }
+  color: #ff8900;
+  width: 400px;
+  max-height: 100px;
+  float: left; }
+  .link:visited {
+    color: #ff525e; }
 
 /* Projects */
 #end {
@@ -136,13 +140,13 @@ nav {
   float: left;
   height: 30%;
   width: 25%;
-  margin: 5% 0 0 5%; }
+  margin: 5% 0 3% 5%;
+  border: 3px solid #8c8c8c;
+  border-radius: 1%; }
   .project.hover {
     background-color: #ff8900; }
 
 .app {
-  border: 3px solid #8c8c8c;
-  border-radius: 1%;
   height: 100%;
   width: 100%;
   opacity: 1; }
@@ -153,6 +157,9 @@ nav {
   margin-top: 20%;
   font-size: 30px;
   text-align: center; }
+
+.overview {
+  margin-top: 5%; }
 
 /*Connect */
 .bottom {

@@ -18,14 +18,15 @@ body {
 
 #welcome {
   background-image: url("../images/hearts2.jpg");
-  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  overflow: hidden; }
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%; }
 
 /* TOP of FIRST PAGE */
 nav {
@@ -87,8 +88,7 @@ nav {
 
 .box {
   display: table;
-  margin: 10%;
-  width: 20%;
+  width: 50%;
   height: 20%; }
 
 .circle {
@@ -113,15 +113,15 @@ nav {
   color: black; }
 
 .description {
-  height: 100px;
-  width: 300px;
+  max-height: 100px;
+  max-width: 300px;
   padding: 26.66667px;
   margin-left: 80px;
   color: black; }
 
 .link {
   color: #ff525e;
-  margin-left: 35%; }
+  width: 300px; }
 
 /* Projects */
 #end {

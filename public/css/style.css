@@ -133,8 +133,6 @@ nav {
 
 .project {
   background-color: #a6a6a6;
-  border: 3px solid #8c8c8c;
-  border-radius: 1%;
   float: left;
   height: 30%;
   width: 25%;
@@ -143,6 +141,8 @@ nav {
     background-color: #ff8900; }
 
 .app {
+  border: 3px solid #8c8c8c;
+  border-radius: 1%;
   height: 100%;
   width: 100%;
   opacity: 1; }

@@ -163,8 +163,6 @@ nav {
 
 .project{
   background-color: darken($grey,10);
-  border: 3px solid darken($grey,20);
-  border-radius: 1%;
   float: left;
   height: 30%;
   width: 25%;
@@ -176,6 +174,8 @@ nav {
 }
 
 .app{
+  border: 3px solid darken($grey,20);
+  border-radius: 1%;
   height: 100%;
   width: 100%;
   opacity: 1;

@@ -72,7 +72,7 @@ nav {
 
 /* Timeline */
 #path {
-  background-image: url("../images/topMountain2.jpg");
+  background-image: url("../images/test2.jpg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -103,21 +103,23 @@ nav {
 
 .time {
   padding: 8px;
-  text-align: center; }
+  text-align: center;
+  color: #fffdff; }
 
 .stage {
   width: 300px;
   margin-left: 80px;
   text-align: center;
   font-weight: bold;
-  color: black; }
+  color: #fffdff; }
 
 .description {
   max-height: 100px;
   max-width: 300px;
   padding: 26.66667px;
   margin-left: 80px;
-  color: black; }
+  color: #fffdff;
+  text-align: justify; }
 
 .link {
   color: #ff8900;
@@ -143,14 +145,15 @@ nav {
   margin: 5% 0 3% 5%;
   border: 3px solid #8c8c8c;
   border-radius: 1%; }
-  .project.hover {
-    background-color: #ff8900; }
+  .project:hover {
+    background-color: #ff8900;
+    border: 3px solid #ff8900; }
 
 .app {
   height: 100%;
   width: 100%;
   opacity: 1; }
-  .app.hover {
+  .app:hover {
     opacity: 0.7; }
 
 .future-app {
@@ -159,7 +162,13 @@ nav {
   text-align: center; }
 
 .overview {
-  margin-top: 5%; }
+  margin-top: 5%;
+  line-height: 1.3em; }
+
+.app-link {
+  width: 4%;
+  height: auto;
+  display: inline-block; }
 
 /*Connect */
 .bottom {
